@@ -91,6 +91,10 @@ reposync -p repos --repoid=updates
 reposync -p repos --repoid=updates
 ```
 
+## 返回值
+
+返回状态为成功除非给出了非法选项或非法参数。
+
 ## 文件
 
 reposync使用yum库来检索信息和包。如果没有指定配置文件，将使用默认的yum配置。
